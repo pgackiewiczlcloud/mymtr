@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-RUN apt-get update && apt-get upgrade -y && apt-get install -y mtr iproute2 telnet netcat
+RUN apt-get update && apt-get upgrade -y && apt-get install -y mtr iproute2 telnet netcat less
 
 RUN mkdir -p /usr/local/bin
 
