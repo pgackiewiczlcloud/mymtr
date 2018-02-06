@@ -4,6 +4,6 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y mtr iproute2 teln
 
 RUN mkdir -p /usr/local/bin
 
-COPY /mytools/mymtr/mymtr /usr/local/bin/mymtr
+COPY /mymtr /usr/local/bin/mymtr
 
 CMD ["bash"]
